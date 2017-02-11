@@ -64,8 +64,8 @@ OBJS = benchmark.o bitbase.o bitboard.o endgame.o evaluate.o main.o \
 
 ### 2.1. General and architecture defaults
 debug = no
-optimize = no
-arch = armv7
+optimize = yes
+arch = any
 bits = 32
 prefetch = no
 popcnt = no
