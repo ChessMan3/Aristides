@@ -65,14 +65,13 @@ OBJS = benchmark.o bitbase.o bitboard.o endgame.o evaluate.o main.o \
 ### 2.1. General and architecture defaults
 debug = no
 optimize = yes
-arch = x86_64
-bits = 64
-prefetch = yes
-popcnt = yes
-sse = yes
+bits = 32
+prefetch = no
+popcnt = no
+sse = no
 pext = no
-native = yes
-numa = yes
+native = no
+numa = no
 
 ### 2.2 Architecture specific
 
